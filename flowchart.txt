@@ -1,0 +1,51 @@
+Notebook
+-------------
+
+
+1. Importing the Packages
+2. Exploring the Datasets
+	- Student Engagement Data
+3. Image Data Augmentation
+	- Re-scaling the Image
+	- Shear Transformation
+	- Zooming the Image
+	- Horizontal Flip 
+	- Reshaping the Image 
+4. Function for calculating the Recall, Precision and F1 Score
+5. Defining the EarlyStopping to avoid either Under/Over Fitting
+6. Calling the Model
+	
+	- CNN
+	- MobileNet
+	- Xception
+	- NASNetMobile
+	- Xception + NASNetMobile
+
+
+7. Building and Training the model  
+8. Dumping the best model for classifying the engagement
+
+
+FrontEnd
+--------
+
+9. Frontend is developed with help of Flask Framework, along with Registration and Login setup with support of Sqlite DB
+10. For the frontend we used the data for classifying 
+11. User uploads an image
+	- Classification
+12. The given input is preprocessed for classifying 
+13. Trained model is used for classifying and detecting
+14. Final outcome is displayed through frontend
+
+
+Dataset
+---------
+
+https://www.kaggle.com/datasets/joyee19/studentengagement/data
+
+Extension
+----------
+
+In the base paper, the author mentioned to use CNN and MobileNet models for classify the engagment of students,
+As an extension we have applied NASNetMobile + Xception for analysis the dataset, 
+With the above As an extension we can build the front end using flask framework for user testing with authentication.
