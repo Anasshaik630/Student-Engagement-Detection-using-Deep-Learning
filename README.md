@@ -41,3 +41,83 @@ The goal is to help educators understand student moods (engaged, bored, confused
 ```bash
 git clone https://github.com/Anasshaik630/Student-Engagement-Detection-using-Deep-Learning.git
 cd Student-Engagement-Detection-using-Deep-Learning
+2. **Set Up Environment**
+It's recommended to use a virtual environment
+python -m venv venv
+# On Windows
+venv\Scripts\activate
+# On Mac/Linux
+source venv/bin/activate
+
+3. **Install Requirements
+**
+pip install -r requirements.txt
+
+🔗 4. **Download the Model File**
+Download the pre-trained model file (ensemble.h5) from this link:
+
+📥** Download ensemble.h5**
+
+Place the file in the root directory of the project.
+
+▶️ 5. **python app.py
+**🧪 **Demo Features**
+Image Upload + Classification
+
+**Student mood detection:**
+
+Bored
+
+Confused
+
+Engaged
+
+Drowsy
+
+Frustrated
+
+Looking Away
+
+Login and Signup system with OTP verification via email
+
+📂** Project Structure**
+
+├── app.py
+├── requirements.txt
+├── flowchart.txt
+├── templates/
+│   ├── home.html
+│   ├── signup.html
+│   ├── signin.html
+│   ├── result.html
+│   └── index.html
+├── static/uploads/
+├── ensemble.h5  ← download separately
+├── .gitignore
+└── README.md
+📚 **Dataset Used**
+Kaggle - Student Engagement Dataset
+
+Dataset
+
+🧑‍💻 **Developed by
+**Shaik Mohammed Anays
+📧 anasshaik630@gmail.com
+🌐 Portfolio
+
+🪪 ** License**
+This project is licensed under the MIT License.
+
+---
+
+📌 Once you upload the `ensemble.h5` to Google Drive or Dropbox, send me the link and I’ll insert it above.
+
+Let me know if you also want badges like:
+- ✅ Python version
+- ✅ Flask powered
+- ✅ Made with ❤️ by Anays
+
+I'd be happy to add them!
+
+
+
